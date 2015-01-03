@@ -1,7 +1,8 @@
 # Site settings
 title: Lisa Bormann
+domain: lisabormann.com
 email: lisabormann@comcast.net
-description: "Lisa Bormann’s paintings are done from life, not photographs, primarily in oil and pastel. Focusing on contemporary figure painting in her Minneapolis studio, she also spends several months a year painting landscapes on site, particularly on Lake Superior and along the Mississipi river valley."
+description: "Lisa Bormann’s paintings are done from life, primarily in oil and pastel. Focusing on contemporary figure painting in her Minneapolis studio, she also spends several months a year painting landscapes on site, particularly on Lake Superior and along the Mississipi river valley."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
