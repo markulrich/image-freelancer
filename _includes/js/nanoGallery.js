@@ -9,7 +9,7 @@ $(function () {
     //},
     thumbnail: {
       background: 'rgba(1, 1, 1, 0.0)',
-      border: '0px solid #000',
+      border: '0px solid #000'
       //labelBackground: 'transparent',
       //labelOpacity: '0.8',
       //titleColor: '#fff',
@@ -20,12 +20,15 @@ $(function () {
   $(".nanoGallery").nanoGallery({
     kind: 'flickr',
     userID: '130203367@N06',
-    thumbnailWidth: 'auto',
-    thumbnailHeight: 200,
+    thumbnailWidth: 300,
+    thumbnailHeight: 'auto',
     photoset: '72157649845564122',
-    thumbnailHoverEffect: [{name: 'labelAppear75', duration: 300}],
-    //theme: 'light',
+    thumbnailHoverEffect: [{name: 'labelAppear75', duration: 1000}],
     colorScheme: myColorScheme,
+    viewerToolbar: {
+      autoMinimize: 2000,
+      standard: 'customN, minimizeButton, previousButton, pageCounter, nextButton, playPauseButton, fullscreenButton, infoButton, linkOriginalButton, closeButton, label'
+    },
     thumbnailGutterWidth: 7,
     thumbnailGutterHeight: 7,
     i18n: {thumbnailImageDescription: 'View Photo'},

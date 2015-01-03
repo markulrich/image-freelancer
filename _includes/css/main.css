@@ -419,3 +419,7 @@ footer .footer-below {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+.body-text {
+    max-width: 1000px;
+}
